@@ -23,6 +23,35 @@ namespace Final_Project.Controllers
             return View();
         }
 
+        public IActionResult Home()
+        {
+            return View();
+        }
+
+        public IActionResult Charlie()
+        {
+            return View();
+        }
+
+        public IActionResult Vedant()
+        {
+            return View();
+        }
+        public IActionResult Francesca()
+        {
+            return View();
+        }
+
+        public IActionResult Hobbie1()
+        {
+            return View();
+        }
+
+        public IActionResult Hobbie2()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
