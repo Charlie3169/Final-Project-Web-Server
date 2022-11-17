@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charlie\\source\\repos\\Final Project\\Final-Project\\Final Project.csproj": {}
+    "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charlie\\source\\repos\\Final Project\\Final-Project\\Final Project.csproj": {
+    "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charlie\\source\\repos\\Final Project\\Final-Project\\Final Project.csproj",
+        "projectUniqueName": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj",
         "projectName": "Final Project",
-        "projectPath": "C:\\Users\\Charlie\\source\\repos\\Final Project\\Final-Project\\Final Project.csproj",
+        "projectPath": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj",
         "packagesPath": "C:\\Users\\Charlie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charlie\\source\\repos\\Final Project\\Final-Project\\obj\\",
+        "outputPath": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
