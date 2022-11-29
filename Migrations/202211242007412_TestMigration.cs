@@ -1,6 +1,7 @@
 ﻿namespace Final_Project.Migrations
 {
     using System;
+    using System.Data.Entity;
     using System.Data.Entity.Migrations;
     
     public partial class TestMigration : DbMigration
@@ -23,10 +24,11 @@
                 .PrimaryKey(t => t.StudentId);
             
         }
-        
+
         public override void Down()
         {
             DropTable("dbo.Students");
         }
+
     }
 }
