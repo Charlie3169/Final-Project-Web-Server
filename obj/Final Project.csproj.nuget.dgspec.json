@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\subaap\\Desktop\\final\\Final Project.csproj": {}
+    "C:\\Users\\subaap\\Source\\Repos\\Final-Project-Web-Server\\Final Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\subaap\\Desktop\\final\\Final Project.csproj": {
+    "C:\\Users\\subaap\\Source\\Repos\\Final-Project-Web-Server\\Final Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\subaap\\Desktop\\final\\Final Project.csproj",
+        "projectUniqueName": "C:\\Users\\subaap\\Source\\Repos\\Final-Project-Web-Server\\Final Project.csproj",
         "projectName": "Final Project",
-        "projectPath": "C:\\Users\\subaap\\Desktop\\final\\Final Project.csproj",
+        "projectPath": "C:\\Users\\subaap\\Source\\Repos\\Final-Project-Web-Server\\Final Project.csproj",
         "packagesPath": "C:\\Users\\subaap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\subaap\\Desktop\\final\\obj\\",
+        "outputPath": "C:\\Users\\subaap\\Source\\Repos\\Final-Project-Web-Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

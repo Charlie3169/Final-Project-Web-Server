@@ -1,7 +1,49 @@
-﻿
+﻿@model Student
 @{
-    ViewData["Title"] = "Francesca";
+    ViewBag.Title = "Francesca Suba";
 }
 
-<h1>Francesca</h1>
+<h1>FRANCESCA SUBA</h1>
+<div class="row">
+    <div class="col-sm-2">
+        <a asp-controller="Student" asp-action="List" asp-route-id="All">All</a>
+
+        @foreach (Student s in Model)
+        {
+
+            <a asp-controller="Student" asp-action="List" asp-route-id="@s.Name">
+            </a>
+
+        }
+    </div>
+
+    <div class="col-sm-10">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Major</th>
+                    <th>Concentration</th>
+                    <th>Year</th>
+                    <th>Favoriite Food</th>
+                    <th>Favorite Song</th>
+                    <th>Hometown</th>
+            </thead>
+            <tbody>
+                @foreach (var student in Students)
+                {
+                    <tr>
+                        <td>@student.Name</td>
+                        <td>@student.Major</td>
+                        <td>@student.Concentration</td>
+                        <td>@student.Year</td>
+                        <td>@student.FavoriteFood</td>
+                        <td>@student.FavoriteSong</td>
+                        <td>@student.Hometown</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
 

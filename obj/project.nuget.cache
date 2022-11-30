@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wRF9dFDVyrJe5c57HfhmOoiUfb5btt/ftlhrp6avsdJfnelMOwpq5K7uwRbkGYvAsXj+qCTTgtIAIiYtDq7C0Q==",
+  "dgSpecHash": "ylVeAhKYuR/WoEvpZWWqwjBOO53NtPNxvbpucFEQaSWQwrB5p30lGCZxEqcVjbOJB1iE8w9mF3VEsGuOSE2n2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\subaap\\Desktop\\final\\Final Project.csproj",
+  "projectFilePath": "C:\\Users\\subaap\\Source\\Repos\\Final-Project-Web-Server\\Final Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\subaap\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\subaap\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
