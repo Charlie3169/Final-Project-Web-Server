@@ -340,11 +340,7 @@ body .footer {
         margin: 0px;
     }
 
-.slick-prev {
-    left: 5px;
-    z-index: 1;
-    margin: -59px;
-}
+
 
 .slick-next {
     right: 5px;
