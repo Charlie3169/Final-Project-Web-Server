@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj": {}
+    "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj": {
+    "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj",
+        "projectUniqueName": "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj",
         "projectName": "Final Project",
-        "projectPath": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj",
-        "packagesPath": "C:\\Users\\Charlie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\obj\\",
+        "projectPath": "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj",
+        "packagesPath": "C:\\Users\\Vedant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vedant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -51,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
