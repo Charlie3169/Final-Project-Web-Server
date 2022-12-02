@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj": {}
+    "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj": {
+    "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj",
+        "projectUniqueName": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj",
         "projectName": "Final Project",
-        "projectPath": "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\Final Project.csproj",
-        "packagesPath": "C:\\Users\\Vedant\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedant\\Documents\\GitHub\\Final-Project-Web-Server\\obj\\",
+        "projectPath": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\Final Project.csproj",
+        "packagesPath": "C:\\Users\\Charlie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charlie\\OneDrive\\School\\Senior Project\\Final-Project-Web-Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vedant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
