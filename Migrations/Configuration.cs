@@ -39,13 +39,13 @@
                         FavoriteSong = "Hills by The Weeknd",
                         Hometown = "Cleveland" },
                 new Student { StudentId = 3,
-                        Name = "Test",
-                        Major = "Test",
-                        Concentration = "Test",
+                        Name = "CHARLIE PHELPS",
+                        Major = "Information Technology",
+                        Concentration = "Software Development",
                         Year = 4,
-                        FavoriteFood = "Test",
-                        FavoriteSong = "Test",
-                        Hometown = "Test" }
+                        FavoriteFood = "Sushi",
+                        FavoriteSong = "September -Earth Wind & Fire",
+                        Hometown = "Yellow Springs Ohio" }
             };
             students.ForEach(s => context.Students.AddOrUpdate(p => p.Name, s));
             context.SaveChanges();
