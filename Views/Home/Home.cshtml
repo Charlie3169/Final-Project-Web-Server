@@ -1,7 +1,27 @@
-﻿
+﻿@model List<Student>
 @{
     ViewData["Title"] = "Home";
 }
 
 <h1>Home</h1>
-
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr><th>StudentId</th><th>Name</th><th>Major</th><th>Concentration</th><th>Year</th><th>FavoriteFood</th><th>FavoriteSong</th>
+        <th>Hometown</th></tr>
+    </thead>
+    @*<tbody>
+        @foreach (Student student in Model)
+        {
+            <tr>
+                <td>@student.StudentId</td>
+                <td>@student.Name</td>
+                <td>@student.Major</td>
+                <td>@student.Concentration</td>
+                <td>@student.Year</td>
+                <td>@student.FavoriteFood</td>
+                <td>@student.FavoriteSong</td>
+                <td>@student.Hometown</td>
+            </tr>
+        }
+    </tbody>*@
+</table>

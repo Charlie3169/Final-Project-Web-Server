@@ -7,7 +7,7 @@ namespace Final_Project.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+                
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -40,17 +40,7 @@ namespace Final_Project.Controllers
         public IActionResult Francesca()
         {
             return View();
-        }
-
-        public IActionResult Hobbie1()
-        {
-            return View();
-        }
-
-        public IActionResult Hobbie2()
-        {
-            return View();
-        }
+        }        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
